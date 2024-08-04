@@ -26,30 +26,48 @@
     </branding>
     <releases>
         <release version="v2024.7.29.155" date="2024-07-29">
-            <description></description>
+            <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2024.7.29.155</url>
+            <description>
+                <p>The flathub application is now moved to the new identifier io.seamly.seamly2d to match the updated project domain.</p>
+                <p>Other changes</p>
+                <ul>
+                    <li>Examples, units and domains in math function comments by @Onetchou</li>
+                    <li>Auto scroll when moving pattern piece is now independent from the piece's size</li>
+                    <li>fix: No more warning popup when using a math function with a semicolon by @Onetchou</li>
+                    <li>fix: no more error popup when cancelling image import by @Onetchou</li>
+                </ul>
+            </description>
         </release>
         <release version="v2024.7.22.155" date="2024-07-22">
+            <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2024.7.22.155</url>
             <description/>
         </release>
         <release version="v2024.7.15.155" date="2024-07-15">
+            <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2024.7.25.155</url>
             <description/>
         </release>
         <release version="v2024.7.8.153" date="2024-07-08">
+            <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2024.7.8.153</url>
             <description/>
         </release>
         <release version="v2024.6.24.152" date="2024-06-24">
+            <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2024.6.24.152</url>
             <description/>
         </release>
         <release version="v2024.6.17.153" date="2024-06-17">
+            <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2024.6.17.153</url>
             <description/>
         </release>
         <release version="v2024.6.10.152" date="2024-06-10">
+            <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2024.6.10.152</url>
             <description/>
         </release>
         <release version="v2024.6.3.151" date="2024-06-03">
+            <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2024.6.3.151</url>
             <description/>
         </release>
         <release version="v2024.5.27.150" date="2024-05-27">
+            <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2024.5.27.150</url>
             <description/>
         </release>
         <release version="v2024.5.20.149" date="2024-05-20"/>
