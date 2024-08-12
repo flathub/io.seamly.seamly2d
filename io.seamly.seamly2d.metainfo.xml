@@ -26,7 +26,10 @@
     </branding>
     <releases>
         <release version="v2024.8.12.156" date="2024-08-12">
-            <description></description>
+            <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2024.8.12.156</url>
+            <description>
+                <p>Feature: users can import jpeg as background images by @Onetchou</p>
+            </description>
         </release>
         <release version="v2024.8.5.155" date="2024-08-05">
             <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2024.8.5.155</url>
