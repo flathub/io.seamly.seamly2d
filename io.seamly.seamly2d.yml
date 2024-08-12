@@ -48,8 +48,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/FashionFreedom/Seamly2D.git
-        tag: v2024.8.5.155
-        commit: 2c739c9d7b324c430929990d0aea0f98f2e7f1c8
+        tag: v2024.8.12.156
+        commit: 6b1d110a29e20216d9d29e24f55b3d6637d5f879
         x-checker-data:
           type: json
           url: https://api.github.com/repos/FashionFreedom/Seamly2D/releases/latest
