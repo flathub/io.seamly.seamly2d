@@ -22,8 +22,8 @@ modules:
       - -DENABLE_QT6=OFF
     sources:
       - type: archive
-        url: https://poppler.freedesktop.org/poppler-24.08.0.tar.xz
-        sha256: 97453fbddf0c9a9eafa0ea45ac710d3d49bcf23a62e864585385d3c0b4403174
+        url: https://poppler.freedesktop.org/poppler-24.09.0.tar.xz
+        sha256: ebd857987e2395608c69fdc44009692d5906f13b612c5280beff65a0b75dc255
         x-checker-data:
           type: anitya
           project-id: 3686
@@ -48,8 +48,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/FashionFreedom/Seamly2D.git
-        tag: v2024.8.12.156
-        commit: 6b1d110a29e20216d9d29e24f55b3d6637d5f879
+        tag: v2024.9.9.200
+        commit: 6528274d73e7a948fc5758007fdb0b9c05f1769e
         x-checker-data:
           type: json
           url: https://api.github.com/repos/FashionFreedom/Seamly2D/releases/latest

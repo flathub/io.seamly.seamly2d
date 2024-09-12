@@ -25,6 +25,17 @@
         <color type="primary" scheme_preference="dark">#ab95df</color>
     </branding>
     <releases>
+        <release version="v2024.9.9.200" date="2024-09-09">
+            <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2024.9.9.200</url>
+            <description>
+                <ul>
+                    <li>Feature: Add position option to tool dialogs by @DSCaskey</li>
+                    <li>Feature: New image formats available for background images by @Onetchou</li>
+                    <li>Fix linetype combobox in prop editor by @DSCaskey</li>
+                    <li>Fixed an issue with parsed image ids for the background images by @Onetchou</li>
+                </ul>
+            </description>
+        </release>
         <release version="v2024.8.12.156" date="2024-08-12">
             <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2024.8.12.156</url>
             <description>
