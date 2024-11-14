@@ -25,6 +25,14 @@
         <color type="primary" scheme_preference="dark">#ab95df</color>
     </branding>
     <releases>
+        <release version="v2024.11.11.202" date="2024-11-13">
+            <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2024.11.11.202</url>
+            <description>
+                <ul>
+                    <li>Fix: SVG export failing if description contains special characters by @Onetchou</li>
+                </ul>
+            </description>
+        </release>
         <release version="v2024.10.14.203" date="2024-10-14">
             <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2024.10.14.203</url>
             <description>
