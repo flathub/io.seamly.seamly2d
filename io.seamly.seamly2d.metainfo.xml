@@ -26,7 +26,19 @@
     </branding>
     <releases>
         <release version="v2024.12.2.209" date="2024-12-02">
-            <description></description>
+            <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2024.12.2.209</url>
+            <description>
+                <ul>
+                    <li>Fix: Draggable menu items in pattern pieces & pref dialogs by @DSCaskey</li>
+                    <li>Feature: add color attribute to point on curve tools by @DSCaskey</li>
+                    <li>Fix: Remove minimum point name font size when zooming by @DSCaskey</li>
+                    <li>Feature: Remove union tool retain pieces option by @DSCaskey</li>
+                    <li>Fix: xml tag order by @DSCaskey</li>
+                    <li>Fix: grainline arrows by @DSCaskey</li>
+                    <li>Fix: bounding boxes of exported svg pattern pieces are now correct by @Onetchou</li>
+                    <li>Fix: fx dialog positioning by @DSCaskey</li>
+                </ul>
+            </description>
         </release>
         <release version="v2024.11.11.202" date="2024-11-13">
             <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2024.11.11.202</url>
