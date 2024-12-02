@@ -29,7 +29,7 @@
             <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2024.12.2.209</url>
             <description>
                 <ul>
-                    <li>Fix: Draggable menu items in pattern pieces & pref dialogs by @DSCaskey</li>
+                    <li>Fix: Draggable menu items in pattern pieces and pref dialogs by @DSCaskey</li>
                     <li>Feature: add color attribute to point on curve tools by @DSCaskey</li>
                     <li>Fix: Remove minimum point name font size when zooming by @DSCaskey</li>
                     <li>Feature: Remove union tool retain pieces option by @DSCaskey</li>
