@@ -26,7 +26,17 @@
     </branding>
     <releases>
         <release version="v2025.4.14.211" date="2025-04-14">
-            <description></description>
+            <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2025.4.14.211</url>
+            <description>
+                <ul>
+                    <li>Fix: use untranslated name to get diagram number</li>
+                    <li>Fix: add diagrams to tooltip hover</li>
+                    <li>Feature: add num column to fx editor</li>
+                    <li>Fix: Title and description tags removed from exported SVGs</li>
+                    <li>Feature: update Seamly2D shortcuts dialog</li>
+                    <li>Feature: add menu actions and key shortcut to change current draft block</li>
+                </ul>
+            </description>
         </release>
         <release version="v2025.1.6.204" date="2025-01-06">
             <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2025.1.6.204</url>
