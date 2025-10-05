@@ -1,6 +1,6 @@
 app-id: io.seamly.seamly2d
 runtime: org.kde.Platform
-runtime-version: 5.15-24.08
+runtime-version: '6.5'
 sdk: org.kde.Sdk
 command: seamly2d
 finish-args:
@@ -19,7 +19,14 @@ modules:
     config-opts:
       - -DCMAKE_BUILD_TYPE=RelWithDebInfo
       - -DENABLE_BOOST=OFF
+      - -DENABLE_QT5=OFF
       - -DENABLE_QT6=OFF
+      - -DENABLE_GLIB=OFF
+      - -DBUILD_GTK_TESTS=OFF
+      - -DBUILD_QT5_TESTS=OFF
+      - -DBUILD_QT6_TESTS=OFF
+      - -DBUILD_CPP_TESTS=OFF
+      - -DBUILD_MANUAL_TESTS=OFF
     sources:
       - type: archive
         url: https://poppler.freedesktop.org/poppler-25.04.0.tar.xz
@@ -28,6 +35,16 @@ modules:
           type: anitya
           project-id: 3686
           url-template: https://poppler.freedesktop.org/poppler-$version.tar.xz
+  - name: xerces-c
+    buildsystem: simple
+    build-commands:
+      - ./configure --prefix=/app --disable-network --enable-transcoder-iconv --enable-xmlch-char16_t --enable-mutexmgr-standard
+      - make -j$FLATPAK_BUILDER_N_JOBS
+      - make install-strip
+    sources:
+      - type: archive
+        url: https://archive.apache.org/dist/xerces/c/3/sources/xerces-c-3.2.4.tar.gz
+        sha256: 3d8ec1c7f94e38fee0e4ca5ad1e1d9db23cbf3a10bba626f6b4afa2dedafe5ab
   - name: seamly2d
     buildsystem: qmake
     config-opts:
@@ -48,8 +65,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/FashionFreedom/Seamly2D.git
-        tag: v2025.4.14.211
-        commit: 302051f6de5607d1c35104a736c2471c5dee5090
+        tag: v2025.9.29.205
+        commit: 460e58b392ce9bba33dbceb092b0d02c5d948f0d
         x-checker-data:
           type: json
           url: https://api.github.com/repos/FashionFreedom/Seamly2D/releases/latest
@@ -58,5 +75,7 @@ modules:
           timestamp-query: .published_at
       - type: patch
         path: 0001-flatpak.patch
+      - type: patch
+        path: 0001-Fix-patch-to-link-xerces-library-for-flatpak.patch
       - type: file
         path: io.seamly.seamly2d.metainfo.xml
