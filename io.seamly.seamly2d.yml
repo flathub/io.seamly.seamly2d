@@ -38,7 +38,8 @@ modules:
   - name: xerces-c
     buildsystem: simple
     build-commands:
-      - ./configure --prefix=/app --disable-network --enable-transcoder-iconv --enable-xmlch-char16_t --enable-mutexmgr-standard
+      - ./configure --prefix=/app --disable-network --enable-transcoder-iconv --enable-xmlch-char16_t
+        --enable-mutexmgr-standard
       - make -j$FLATPAK_BUILDER_N_JOBS
       - make install-strip
     sources:
@@ -65,8 +66,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/FashionFreedom/Seamly2D.git
-        tag: v2025.9.29.205
-        commit: 460e58b392ce9bba33dbceb092b0d02c5d948f0d
+        tag: v2025.10.6.204
+        commit: 7421cc6523437489131ba5fe7cdd7cbd89849030
         x-checker-data:
           type: json
           url: https://api.github.com/repos/FashionFreedom/Seamly2D/releases/latest
