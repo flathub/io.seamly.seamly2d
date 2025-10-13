@@ -29,8 +29,8 @@ modules:
       - -DBUILD_MANUAL_TESTS=OFF
     sources:
       - type: archive
-        url: https://poppler.freedesktop.org/poppler-25.04.0.tar.xz
-        sha256: b010c596dce127fba88532fd2f1043e55ea30601767952d0f2c0a80e7dc0da3d
+        url: https://poppler.freedesktop.org/poppler-25.10.0.tar.xz
+        sha256: 6b5e9bb64dabb15787a14db1675291c7afaf9387438cc93a4fb7f6aec4ee6fe0
         x-checker-data:
           type: anitya
           project-id: 3686
@@ -38,7 +38,8 @@ modules:
   - name: xerces-c
     buildsystem: simple
     build-commands:
-      - ./configure --prefix=/app --disable-network --enable-transcoder-iconv --enable-xmlch-char16_t --enable-mutexmgr-standard
+      - ./configure --prefix=/app --disable-network --enable-transcoder-iconv --enable-xmlch-char16_t
+        --enable-mutexmgr-standard
       - make -j$FLATPAK_BUILDER_N_JOBS
       - make install-strip
     sources:
@@ -65,8 +66,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/FashionFreedom/Seamly2D.git
-        tag: v2025.9.29.205
-        commit: 460e58b392ce9bba33dbceb092b0d02c5d948f0d
+        tag: v2025.10.13.208
+        commit: f3119c74e22c05d62c15a0b062c77d50a1227019
         x-checker-data:
           type: json
           url: https://api.github.com/repos/FashionFreedom/Seamly2D/releases/latest
