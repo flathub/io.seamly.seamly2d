@@ -26,7 +26,16 @@
     </branding>
     <releases>
         <release version="v2025.10.13.208" date="2025-10-13">
-            <description></description>
+            <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2025.10.13.208</url>
+            <description>
+                <ul>
+                    <li>Feature: change search hightlight colors by @DSCaskey</li>
+                    <li>Fix: Variables table refresh by @DSCaskey</li>
+                    <li>Fix: Crash when clearing history by @DSCaskey</li>
+                    <li>Fix: Pattern piece grainlines by @DSCaskey</li>
+                    <li>Fix: Grainline arrow formula initialization to use locale by @DSCaskey</li>
+                </ul>
+            </description>
         </release>
         <release version="v2025.9.29.205" date="2025-09-29">
             <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2025.9.29.205</url>
