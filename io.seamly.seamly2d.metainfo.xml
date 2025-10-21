@@ -26,7 +26,12 @@
     </branding>
     <releases>
         <release version="v2025.10.20.210" date="2025-10-20">
-            <description></description>
+            <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2025.10.20.210</url>
+            <description>
+				<ul>
+					<li>Fix: Linetype no-pen error in internal paths by @DSCaskey</li>
+				</ul>
+			</description>
         </release>
         <release version="v2025.10.13.208" date="2025-10-13">
             <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2025.10.13.208</url>
