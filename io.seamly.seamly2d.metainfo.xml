@@ -25,6 +25,9 @@
         <color type="primary" scheme_preference="dark">#ab95df</color>
     </branding>
     <releases>
+        <release version="v2025.12.15.213" date="2025-12-15">
+            <description></description>
+        </release>
         <release version="v2025.10.20.210" date="2025-10-20">
             <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2025.10.20.210</url>
             <description>
