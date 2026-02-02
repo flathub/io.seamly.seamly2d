@@ -5,7 +5,8 @@ sdk: org.kde.Sdk
 command: seamly2d
 finish-args:
   - --share=ipc
-  - --socket=x11
+  - --socket=wayland
+  - --socket=fallback-x11
   - --socket=cups
   - --filesystem=home
   - --device=dri
@@ -66,8 +67,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/FashionFreedom/Seamly2D.git
-        tag: v2026.1.5.213
-        commit: 3928b6062702c864ee92bd93b4e5e254f0667ef3
+        tag: v2026.1.26.213
+        commit: ea2d161569b5984ea375aa6e64c48aaff4f990d4
         x-checker-data:
           type: json
           url: https://api.github.com/repos/FashionFreedom/Seamly2D/releases/latest
