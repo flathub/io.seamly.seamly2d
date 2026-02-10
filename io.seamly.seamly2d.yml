@@ -3,6 +3,8 @@ runtime: org.kde.Platform
 runtime-version: '6.9'
 sdk: org.kde.Sdk
 command: seamly2d
+rename-desktop-file: seamly2d.desktop
+separate-locales: false
 finish-args:
   - --share=ipc
   - --socket=wayland
@@ -11,9 +13,12 @@ finish-args:
   - --filesystem=home
   - --device=dri
   - --socket=pulseaudio
-rename-desktop-file: seamly2d.desktop
-separate-locales: false
-
+cleanup:
+  - /include
+  - /lib/pkgconfig
+  - /share/man
+  - '*.la'
+  - '*.a'
 modules:
   - name: poppler
     buildsystem: cmake-ninja
