@@ -86,3 +86,6 @@ modules:
         path: 0001-Fix-patch-to-link-xerces-library-for-flatpak.patch
       - type: file
         path: io.seamly.seamly2d.metainfo.xml
+      - type: shell
+        commands:
+          - ver=$(git describe --tags); ./scripts/version.sh ${ver:1}
