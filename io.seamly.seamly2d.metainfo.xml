@@ -41,7 +41,14 @@
     </branding>
     <releases>
         <release version="v2026.4.13.215" date="2026-04-13">
-            <description></description>
+			<url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2026.4.13.215</url>
+            <description>
+				<ul>
+					<li>Fix: Stop adding meaningless empty lines into SeamlyMe measurement files</li>
+					<li>Fix: Show version number in Flathub-based release and hide update button</li>
+					<li>Updates to Chinese, German and Finnish translations</li>
+				</ul>				
+			</description>
         </release>
         <release version="v2026.4.6.214" date="2026-04-06">
             <description/>
