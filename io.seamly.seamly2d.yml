@@ -35,8 +35,8 @@ modules:
       - -DBUILD_MANUAL_TESTS=OFF
     sources:
       - type: archive
-        url: https://poppler.freedesktop.org/poppler-26.04.0.tar.xz
-        sha256: b0955163114af96bc0106f68cb24daf973a629462453d8b82775f81b0d4e0693
+        url: https://poppler.freedesktop.org/poppler-26.05.0.tar.xz
+        sha256: 6fef27ff04f37db43054c86bcdff6128c9fb1f6af4ef3c8b369a7e9abd68d0bb
         x-checker-data:
           type: anitya
           project-id: 3686
@@ -72,8 +72,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/FashionFreedom/Seamly2D.git
-        tag: v2026.4.20.215
-        commit: 23e9eef661417a575516e70e379273b17b91fe81
+        tag: v2026.5.4.215
+        commit: 6e09a9bbbda63409936a8702a547475473fa78af
         x-checker-data:
           type: json
           url: https://api.github.com/repos/FashionFreedom/Seamly2D/releases/latest
