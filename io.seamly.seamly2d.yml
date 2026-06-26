@@ -28,6 +28,7 @@ modules:
       - -DENABLE_QT5=OFF
       - -DENABLE_QT6=OFF
       - -DENABLE_GLIB=OFF
+      - -DENABLE_NSS3=OFF
       - -DBUILD_GTK_TESTS=OFF
       - -DBUILD_QT5_TESTS=OFF
       - -DBUILD_QT6_TESTS=OFF
@@ -35,8 +36,8 @@ modules:
       - -DBUILD_MANUAL_TESTS=OFF
     sources:
       - type: archive
-        url: https://poppler.freedesktop.org/poppler-26.02.0.tar.xz
-        sha256: dded8621f7b2f695c91063aab1558691c8418374cd583501e89ed39487e7ab77
+        url: https://poppler.freedesktop.org/poppler-26.06.0.tar.xz
+        sha256: 4cb4e5a3dc8cb5eec751c8a23c8ba19f61f96dedc0cd07d2aee6b0c8e2cf6ba4
         x-checker-data:
           type: anitya
           project-id: 3686
@@ -72,8 +73,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/FashionFreedom/Seamly2D.git
-        tag: v2026.2.9.214
-        commit: 73bf61f3c084755113e02b8c11b7fa63a46c4014
+        tag: v2026.6.15.216
+        commit: d64ee29dd5a338190e145ab26c2a8fb8e8ef489e
         x-checker-data:
           type: json
           url: https://api.github.com/repos/FashionFreedom/Seamly2D/releases/latest
@@ -86,3 +87,6 @@ modules:
         path: 0001-Fix-patch-to-link-xerces-library-for-flatpak.patch
       - type: file
         path: io.seamly.seamly2d.metainfo.xml
+      - type: shell
+        commands:
+          - ver=$(git describe --tags); ./scripts/version.sh ${ver:1}
