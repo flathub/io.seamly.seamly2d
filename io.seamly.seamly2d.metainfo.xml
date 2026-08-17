@@ -40,8 +40,11 @@
         <color type="primary" scheme_preference="dark">#ab95df</color>
     </branding>
     <releases>
-        <release version="v2026.8.10.212" date="2026-08-10">
+        <release version="v2026.8.17.159" date="2026-08-17">
             <description></description>
+        </release>
+        <release version="v2026.8.10.212" date="2026-08-10">
+            <description/>
         </release>
         <release version="v2026.8.3.214" date="2026-08-03">
             <description/>
