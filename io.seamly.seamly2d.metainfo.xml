@@ -40,9 +40,13 @@
         <color type="primary" scheme_preference="dark">#ab95df</color>
     </branding>
     <releases>
+        <release version="v2026.11.23.131" date="2026-11-23">
+            <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2026.11.23.131</url>
+            <description></description>
+        </release>
         <release version="v2026.11.16.133" date="2026-11-16">
             <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2026.11.16.133</url>
-            <description></description>
+            <description/>
         </release>
         <release version="v2026.11.9.131" date="2026-11-09">
             <url type="details">https://github.com/FashionFreedom/Seamly2D/releases/tag/v2026.11.9.131</url>
